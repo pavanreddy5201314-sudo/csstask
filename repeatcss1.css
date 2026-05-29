@@ -1,0 +1,72 @@
+body{
+    margin: 30px;
+    background: #57c7c3;
+background: linear-gradient(90deg, rgba(87, 199, 195, 1) 28%, rgba(109, 149, 210, 1) 74%, rgba(83, 237, 116, 1) 100%);
+}
+.ab{
+    background-color: white;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 40px;
+   }
+.aa{
+    display: flex;
+   justify-content: space-evenly;
+    padding: 20px;
+    gap: 40px;
+}   
+.aa2{
+    display: flex;
+   gap: 50px;
+}
+.aa1{
+    display: flex;
+    padding-right: 100px;
+}
+.aa3{
+    display: flex;
+    gap: 50px;
+   
+}
+button{
+    border-radius: 30px;
+}
+.aa4{
+   background-color: yellow;
+}
+.pj{
+    display: flex ;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.pj1{
+    padding-right: 100px;
+}
+.pj2{
+   background-color: yellow;
+}
+.pj3{
+    height: 300px;
+    width: 300px;
+}
+.sr{
+    display: flex;
+    justify-content: space-evenly;
+}    
+.sr1{
+    padding-right: 500px;
+}
+.sr2{
+    display: flex;
+    gap: 20px;
+    height:40px;
+    width: 60px; 
+    padding-right: 300px;
+}
+.sr3{
+    background-color: yellow;
+}
+.chicken{
+    display: flex;
+    justify-content: space-evenly;
+}

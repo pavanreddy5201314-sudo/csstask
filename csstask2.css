@@ -1,0 +1,42 @@
+
+body{
+     background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(233, 148, 229, 1) 100%);
+padding: 30px;
+}
+.a{
+    text-align: center; 
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+.a1 img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.b1{
+    padding-left: 250px;
+}
+.q1{
+    text-align: center;
+}
+.d1{
+    display: flex;
+    gap: 50px;
+    padding-left: 60px;
+}
+.ar{
+    color: skyblue;
+}
+button{
+    width: 200px;
+    border-radius: 25px;
+    height: 30px;
+    background-color: yellow;
+}
+.arb{
+    padding-bottom: 20px;
+}
+
