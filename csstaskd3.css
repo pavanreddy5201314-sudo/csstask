@@ -1,0 +1,39 @@
+.rcb{
+    border: solid 20px lightseagreen;
+    width: 700px;
+    margin: auto;
+}
+.v18{
+    background-color: orange;
+    align-items: center;
+    display: flex;
+    padding-left: 200px;
+    gap: 40px; 
+}
+.v18 img{
+    border-radius: 50%;
+    width: 70px;
+}
+.a17{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.ab17 img{
+    height: 300px;
+    width: 200px;
+}
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.c2{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    text-decoration: overline;
+    margin-top: 30px;
+}
