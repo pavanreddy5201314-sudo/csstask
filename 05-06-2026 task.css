@@ -1,0 +1,89 @@
+body{
+    background-color: bisque;
+}
+.all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.a1{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid blueviolet;
+    padding: 10px;
+       border-radius: 20px;
+       background-color: whitesmoke;
+}
+.a1 img{
+    width: 260px;
+    height: 50px;
+    margin-left: 25px;
+}
+.a2{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid blueviolet;
+    padding: 10px;
+     border-radius: 20px;
+      background-color: whitesmoke;
+
+}
+.a2 img{
+    width: 260px;
+    height: 50px;
+     margin-left: 25px;
+}
+.a3{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid blueviolet;
+    padding: 10px;
+     border-radius: 20px;
+     background-color: whitesmoke;
+}
+.a3 img{
+    width: 260px;
+    height: 50px;
+     margin-left: 25px;
+}
+.a4{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid blueviolet;
+    padding: 10px;
+     border-radius: 20px;
+     background-color: whitesmoke;
+}
+.a4 img{
+    width: 200px;
+    height: 50px;
+     margin-left: 25px;
+}
+.a5{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid blueviolet;
+    padding: 10px;
+     border-radius: 20px;
+     background-color: whitesmoke;
+}
+.a5 img{
+    width: 260px;
+    height: 50px;
+     margin-left: 25px;
+}
+.a6{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid blueviolet;
+    padding: 10px;
+     border-radius: 20px;
+     background-color: whitesmoke;
+}
+.a6 img{
+    width: 260px;
+    height: 50px;
+     margin-left: 25px;
+}
