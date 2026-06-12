@@ -1,0 +1,40 @@
+.zz{
+    width: 100%;
+}
+.a{
+    margin-left: -8px;
+    margin-top: -8px;
+    position: fixed;
+    align-items: end;
+    width: 100%;
+}
+.a1{
+    padding-top: 4px;
+    display: flex;   
+    gap: 20px;
+    background-color: lightslategrey;
+   padding-left: 150px;
+}
+.sup{
+    margin-top: 10px;
+}
+.suu{
+   border: 1px solid lightyellow;
+}
+.sup :hover{
+    background-color: yellow;
+}
+.b{
+    display: flex;
+    gap: 10px;
+    background-color: orange;
+}
+.home{
+    margin-left: 900px;
+}
+.n{
+    background: #A2B9E4;
+    background: radial-gradient(circle, rgba(162, 185, 228, 1) 85%, rgba(158, 186, 229, 1) 91%, rgba(154, 186, 231, 1) 95%, rgba(148, 187, 233, 1) 100%);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
