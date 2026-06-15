@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.QA{
+margin: 0;
+border: auto;
+}
 .zz{
     width: 100%;
 }
@@ -13,7 +22,11 @@
     display: flex;   
     gap: 20px;
     background-color: lightslategrey;
-   padding-left: 150px;
+   padding-left: 350px;
+   padding-bottom: 5px;
+}
+.sk{
+    padding-top: 15px ;
 }
 .sup{
     margin-top: 10px;
@@ -24,17 +37,230 @@
 .sup :hover{
     background-color: yellow;
 }
+.A{
+    padding-top: 15px;
+}
+.sui{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.suii{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.icon{
+    padding-top: 15px;
+}
+.search{
+    padding-top: 15px;
+}
+.kolar{
+    padding-top: 15px;
+}
 .b{
     display: flex;
     gap: 10px;
     background-color: orange;
+    padding-left: 40px;
 }
 .home{
     margin-left: 900px;
 }
+
+.modiimages1{
+    position: absolute;
+    top: 105px;
+    left: 20px;
+}
+.news{
+    padding: 5px;
+}
+.update{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
 .n{
+    column-gap: 10px;
     background: #A2B9E4;
     background: radial-gradient(circle, rgba(162, 185, 228, 1) 85%, rgba(158, 186, 229, 1) 91%, rgba(154, 186, 231, 1) 95%, rgba(148, 187, 233, 1) 100%);
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.nimg1{
+   margin-right: 8px;
+}
+.n1{
+    display: flex;
+}
+.n2{
+    display: flex;
+}
+.n3{
+    display: flex;
+}
+.n4{
+    display: flex;
+}
+.viewmore{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.more{
+    background-color: yellow;
+    width: 140px;
+    height: 50px;
+}
+.pqvp{
+    display: grid;
+    width: auto;
+   
+    border-top: 5px solid black;
+    grid-template-columns: repeat(4, 0.2fr);
+    /* position: relative; */
+}
+.pgb{
+    position: relative;
+    bottom: 78px;
+    left: 23px;
+    height: 55px;
+   width: 130px;
+   background-color: yellow;
+}
+.pg1 img{
+    height: 100%;
+}
+.pg1{
+    border: 1px solid black;
+    column-gap: 0px;
+}
+ .n6{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+ }
+ .gover{
+    padding: 25px;
+    background-color: yellow;
+    width: 450px;
+    font-size: 19px;
+    margin-left: -5px;
+ }
+ .gover p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+ }
+ .middle{
+    border: 1px solid black;
+ }
+ .kp{
+   /* border: 1px solid; */
+  /* width: fit-content; */
+} 
+ .narendramodi img{
+     width: 100%;
+    height: 250px;
+    border: 30px solid #765038;
+ }
+.knowthepm{
+    text-align: center;
+    background-color: #CAB69E;
+    margin-top: -5px;
+    width: 100%;
+   height: 200px;
+   /* padding-bottom: 10px; */
+}
+.dy{
+    padding-top: 10px;
+    height: 80px;
+    line-height: 1.5;
+}
+
+.a11{
+    background-color: blue;
+    width: 120px;
+    height: 45px;
+}
+.a12{
+    background-color: blue;
+     width: 120px;
+    height: 45px;
+   
+}
+.formerprimeministers{
+    text-align: center;
+}
+.fp{
+    background-color:#3f3e42;
+    width: 100%;
+    padding: 20px;
+    height: 400px;
+    /* margin-top: -22px; */
+}
+.formerpms{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 0px;
+}
+
+.pmp{
+    width: 100%;
+    background-color: lightyellow;
+    font-size: 18px;
+    padding: 20px;
+}
+.pmp p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.a13{
+    background-color: blue;
+     width: 120px;
+    height: 45px;
+    margin-left: 40px;
+}
+.iwpm{
+    background-color: blue;
+    justify-items: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.bulpen{
+    display: flex;
+    gap: 40px;  
+}
+.penr{
+    color: black;
+}
+.government{
+    background-color: #3E414A;
+padding-bottom: 10px;
+padding-left: 150px;
+}
+.p8{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 0;
+}
+.gov-card{
+    position: relative;
+}
+.gov-card p{
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 10px;
+    background-color: black;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    padding-left: 35px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: #6A6C6D;
+    gap: 20px;
 }
