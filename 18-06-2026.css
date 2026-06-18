@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+.top{
+    background-image:  url(https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-slider-1.jpg);
+    height: 600px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+.top1{
+    display: flex;
+    padding-top: 35px;
+    
+}
+.poetry{
+    padding-left: 50px;
+    display: flex;
+    
+    padding-right: 200px;
+}
+.toplink{
+    display: flex;
+    padding-left: 130px;
+   gap: 75px;
+}
+.topicon{
+    display: flex;
+    padding-left: 60px;
+    gap: 15px; 
+}
+.topcart{
+    padding-left: 50px;
+}
+.top2{
+   display: flex;
+   /* padding-left: 60px; */
+}
+.top3{
+    padding-left: 280px;
+    justify-content: space-between;
+    padding-top: 95px;
+}
+.italic{
+    font-style: italic;
+    font-size: 60px;
+    /* font-width: 800px; */
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.secondpart{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   /* justify-content: space-around; */
+   padding: 30px;
+   gap: 10px;
+}
+.ourgallery{
+    padding-left: 50px;
+    padding-right:  30px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+.ourgallery1{
+    text-align: center;
+}
+.ourimages{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    /* padding-left: 50px;
+    padding-right:  30px; */
+    background-color: ; 
+}
+
+.our2{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+}
+.our1 img{
+    width: 90%;
+    height: 100%;
+}
+.our2 img{
+    height: 100%;
+    width: 95%;
+   
+    margin-left: -40px;
+}
+.ourimages1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 10px;
+}
+.our3{
+    display: grid;
+    grid-template-columns: repeat(2,280px);
+}
+.our4{
+    margin-left: -35px;
+}
+.our3 img{
+    width: 90%;
+    height: 100%;
+}
+.our4 img{
+    width: 92%;
+    height: 100%;
+}
+.potpre{
+    padding: 5px;
+}
+.potpre img{
+    width: 98%;
+    height: 500px;
+}
+button{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-left: -3px;
+}
+.subscribe{
+    position: relative;
+}
+.potpre1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.potpre1 input{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid;
+}
+.potpre1 ::placeholder{
+    color: antiquewhite;
+}
+.img4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px;
+}
+.img4 img{
+    height: 100%;
+    width: 90%;
+}
+.p1 p{
+    position: relative;
+    top: 10px;
+    left: 4px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
