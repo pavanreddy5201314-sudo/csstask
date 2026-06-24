@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+.too{
+   background-image: url(https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/about-title-image-1.jpg);
+   height: 380px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+.top1{
+    display: flex;
+    padding-top: 35px;
+    
+}
+.poetry{
+    padding-left: 50px;
+    display: flex;
+    
+    padding-right: 200px;
+}
+.toplink{
+    display: flex;
+    padding-left: 130px;
+   gap: 75px;
+}
+.topicon{
+    display: flex;
+    padding-left: 60px;
+    gap: 15px; 
+}
+.topcart{
+    padding-left: 50px;
+}
+.top2{
+   display: flex;
+   /* padding-left: 60px; */
+}
+.shtop{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.shop{
+    display: flex;
+    padding-top: 30px;
+}
+.format{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+     color: rgb(140, 135, 135);
+}
+.format select{
+    padding: 10px 20px;
+    color: rgb(140, 135, 135);
+    border: 1px solid rgb(105, 102, 102);
+}
+.a img{
+    width: 250px;
+    height: 300px;
+}
+.grida{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 30px 60px;
+    gap:10px;
+}
+.b{
+    display: flex;
+}
+.b img{
+width: 80px;
+height: 100px;
+}
+.c {
+    padding-left: 20px;
+}
+/* .d form input[type="range"]{
+    color: black;
+} */
+ .d button{
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    background-color:rgb(186, 125, 95);
+ }
+.footer{
+    background-color: rgb(250, 244, 237);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -140,20 +140,52 @@ button{
 .potpre1 ::placeholder{
     color: antiquewhite;
 }
+.Latep{
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
 .img4{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 30px;
+   padding-right: 30px;
+   padding-left: 30px;
+   padding-bottom: 50px;
 }
 .img4 img{
     height: 100%;
     width: 90%;
 }
-.p1 p{
+.Latep p{
+    
+    padding-bottom: 40px;
+}
+.Latep h1{
+    font-size: 70px;
+    padding-top: 40px;
+}
+.p1{
     position: relative;
-    top: 10px;
+}
+.p1 p{
+    position: absolute;
+    bottom: 330px;
     left: 4px;
     border-radius: 50%;
     border: 1px solid black;
+    width: auto;
+    height: 40px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    background-color: blue;
+    
 }
-
+.footer{
+    background-color: rgb(250, 244, 237);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
