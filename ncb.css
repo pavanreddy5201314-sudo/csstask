@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.head{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    gap: 30px;
+}
+.nav{
+    display: flex;
+    gap: 10px;
+}
+.hicon{
+    display: flex;
+    gap: 10px;
+}
+.hsearch{
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 30px;
+    width: fit-content;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cbn img{
+    position: relative;
+    max-height: 600px;
+    width: 1260px;
+    opacity: 0.8;
+}
+.cbnmat{
+    position: absolute;
+    top: 220px;
+    left: 750px;
+}
+.cbnmat h1{
+    padding-bottom: 20px;
+}
+.cbnmat p{
+    padding-bottom: 20px;
+}
+.cbnmat button{
+    padding: 10px;
+    border: 2px solid yellow;
+    color: yellow;
+}
+.cbnmat:hover button{
+    background-color: yellow;
+    color: white;
+}
+.pa{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1%;
+}
+.lvn{
+    display: flex;
+    padding: 20px;
+    gap: 980px;
+}
+.pa1{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.pa1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.phtg{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
