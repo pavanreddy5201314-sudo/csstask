@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.head{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    gap: 30px;
+}
+.nav{
+    display: flex;
+    gap: 10px;
+}
+.hicon{
+    display: flex;
+    gap: 10px;
+}
+.hsearch{
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 30px;
+    width: fit-content;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.intro{
+    background-color: #fc8e30;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.intro2{
+    padding: 25px;
+    display: flex;
+}
+.gg11 h3{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+.gg2 h3{
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+.gg2 h3:hover{
+    background-color: green;
+    color: white;
+}
+.ggs{
+    padding-left: 35px;
+}
+.ggs p{
+    margin-top: 15px;
+}
+.footer{
+    padding-top: 10px;
+    background-color: #000000;
+    display: flex;
+    gap: 720px;
+    height: 65px;
+}
+.footer p{
+    color: white;
+    padding-left: 20px;
+}
+.iconsallu{
+    display: flex;
+    gap: 7px;
+}
+.iconsallu a{
+    padding: 5px;
+    display: flex;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #333333;
+    color: whitesmoke;
+}
